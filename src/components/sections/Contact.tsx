@@ -86,10 +86,10 @@ export default function Contact() {
                     <motion.div variants={fadeInUp} className="space-y-8">
                         <div>
                             <h3 className="text-2xl font-bold text-white mb-4">
-                                Let's work together
+                                Let&apos;s work together
                             </h3>
                             <p className="text-gray-300 leading-relaxed">
-                                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
+                                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
                             </p>
                         </div>
 

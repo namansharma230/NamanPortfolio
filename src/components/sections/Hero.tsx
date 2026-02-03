@@ -38,7 +38,7 @@ export default function Hero() {
         }, 100);
 
         return () => clearInterval(typingInterval);
-    }, [skillIndex]);
+    }, [skillIndex, skills]);
 
     const iconMap: Record<string, any> = {
         FaGithub,
@@ -63,7 +63,7 @@ export default function Hero() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        Hi, I'm
+                        Hi, I&apos;m
                     </motion.p>
 
                     {/* Name */}
