@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
     bio: "System Engineer at IRDETO with expertise in full-stack development, AI/ML, and building scalable microservices. Specialized in optimizing ETL pipelines, developing intelligent systems, and creating impactful solutions that solve real-world problems.",
     email: "namannsharma4@gmail.com",
     phone: "9983001339",
-    location: "Patiala",
+    location: "Noida",
     university: "Thapar Institute of Engineering & Technology, Patiala",
     degree: "B.E. Electrical & Electronics Engineering",
     graduation: "2024",
