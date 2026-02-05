@@ -26,5 +26,4 @@ This portfolio acts as your professional online presence, perfect for linking in
 
 ---
 
-## 📁 Folder Structure
 
