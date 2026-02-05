@@ -8,10 +8,10 @@ import { PERSONAL_INFO, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function Hero() {
     const [typedText, setTypedText] = useState("");
-    const skills = ["Full-Stack Developer", "AI Enthusiast", "Problem Solver"];
     const [skillIndex, setSkillIndex] = useState(0);
 
     useEffect(() => {
+        const skills = ["Full-Stack Developer", "AI Enthusiast", "Problem Solver"];
         let currentText = "";
         let currentIndex = 0;
         const currentSkill = skills[skillIndex];
@@ -38,7 +38,7 @@ export default function Hero() {
         }, 100);
 
         return () => clearInterval(typingInterval);
-    }, [skillIndex, skills]);
+    }, [skillIndex]);
 
     const iconMap: Record<string, any> = {
         FaGithub,

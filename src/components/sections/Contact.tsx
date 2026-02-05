@@ -32,6 +32,16 @@ export default function Contact() {
         setIsSubmitting(true);
         setSubmitStatus("idle");
 
+        if (!supabase) {
+            console.error("Supabase client is not initialized. Check environment variables.");
+            setSubmitStatus("error");
+            setIsSubmitting(false);
+            setTimeout(() => {
+                setSubmitStatus("idle");
+            }, 5000);
+            return;
+        }
+
         try {
             const { error } = await supabase
                 .from('contacts')
