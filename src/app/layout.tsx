@@ -30,6 +30,9 @@ export const metadata: Metadata = {
         title: "Naman Sharma | Full-Stack Developer",
         description: "Portfolio of Naman Sharma - Full-Stack Developer & AI Enthusiast",
     },
+    icons: {
+        icon: "/images/profile.png",
+    },
 };
 
 export default function RootLayout({
